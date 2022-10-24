@@ -54,7 +54,7 @@
     <groupId>org.jahiacommunity.modules</groupId>
     <artifactId>jahia-module-redirect</artifactId>
     <name>jahia-module-redirect</name>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (jahia-module-redirect) for running on a Jahia server.</description>
 
@@ -62,7 +62,7 @@
         <connection>scm:git:git@github.com:Jahia/jahia-module-redirect.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/jahia-module-redirect.git</developerConnection>
         <url>https://github.com/Jahia/jahia-module-redirect</url>
-        <tag>jahia-module-redirect-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
