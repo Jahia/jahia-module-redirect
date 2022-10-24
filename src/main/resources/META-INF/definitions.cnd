@@ -1,0 +1,6 @@
+<jcnt = 'http://www.jahiacommunity.org/jahia/nt/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jcnt:redirectComponent] > jnt:content, jmix:basicContent
+ - page (weakreference) mandatory < 'jnt:page'
