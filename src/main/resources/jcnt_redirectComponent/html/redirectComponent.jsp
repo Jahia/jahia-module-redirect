@@ -18,7 +18,7 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 Redirect to: <c:url value="${currentNode.properties['page'].node.url}"/>
-<c:if test="${not empty currentNode.properties['page'] && not empty currentNode.properties['page'].node}">
+<c:if test="${not renderContext.editMode && not empty currentNode.properties['page'] && not empty currentNode.properties['page'].node}">
     <template:addResources type="inlinejavascript" insert="true">
         <script type="text/javascript">
             window.location.replace('<c:url value="${currentNode.properties['page'].node.url}"/>');
