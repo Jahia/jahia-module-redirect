@@ -3,4 +3,4 @@
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 
 [jcnt:redirectComponent] > jnt:content, jmix:basicContent
- - page (weakreference) mandatory < 'jnt:page'
+ - page (weakreference) mandatory < 'jnt:page,jmix:mainResource'
